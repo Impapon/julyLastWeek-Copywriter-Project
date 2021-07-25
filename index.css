@@ -1,0 +1,51 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-container {
+    background: #dbdffd;
+    padding: 20px 300px 20px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-container>.copywriter {
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.nav-options {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-options>a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-right: 18px;
+    color: rgb(59, 57, 57);
+}
+
+.nav-options>a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: blue;
+    transition: width .3s;
+}
+
+.nav-options>a:hover{
+    color: blue;
+}
+
+.nav-options>a:hover::after {
+    width: 100%;
+}
+
+/* Nav Part ends here */
