@@ -127,8 +127,13 @@ body {
 
 /* Services part start here*/
 
+.about-service-bi {
+    background-image: linear-gradient(180deg, white, rgb(19, 170, 150));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .service-container1 {
-    background: #f8fafb;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -142,7 +147,6 @@ body {
 }
 
 .service-container2 {
-    background-color: #f8fafb;
     padding: 30px 300px 30px 300px;
     display: grid;
     grid-template-columns: 6fr 6fr;
@@ -161,6 +165,58 @@ body {
 
 
 /* /* Services part end */
+
+
+/* about part */
+
+.group-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 300px;
+}
+
+#about-title {
+    text-align: center;
+}
+
+#about-details {
+    padding: 30px 300px 30px 300px;
+}
+
+#about-title span {
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.about-statistic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.statistic-img img {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.statistic-1,
+.statistic-2,
+.statistic-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+
+.about-last p {
+    padding: 30px 200px 30px 200px;
+    font-size: 13px;
+}
 
 
 /* contact me */
