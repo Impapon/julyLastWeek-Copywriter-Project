@@ -35,7 +35,7 @@ body {
     display: flex;
 }
 
-.nav-options>a {
+.nav-options a {
     text-decoration: none;
     font-size: 17px;
     font-family: sans-serif;
@@ -90,7 +90,7 @@ body {
     flex-direction: column;
 }
 
-.header-content>p{
+.header-content p{
     margin-bottom: 25px;
 }
 
@@ -109,5 +109,33 @@ body {
     line-height: 25px;
 }
 
-
 /* portfolio pic and content end */
+
+
+/* Services part start here*/
+
+.service-container1{
+    background:  #f8fafb;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px 20px 300px;
+}
+
+
+#help span{
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.service-container2{
+    background-color: #f8fafb;
+    padding: 30px 300px 30px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-container2 h2{
+    color: blue;
+}
