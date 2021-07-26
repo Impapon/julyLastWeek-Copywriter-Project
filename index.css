@@ -43,7 +43,7 @@ body {
     display: flex;
 }
 
-.nav-options>a {
+.nav-options a {
     text-decoration: none;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
@@ -76,26 +76,40 @@ body {
 /* portfolio pic and content  star*/
 
 .header-section {
+    margin-top: 80px;
+    padding: 20px 300px 20px 300px;
     display: grid;
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 3fr 3fr;
     justify-items: center;
     align-items: center;
 }
 
-.header-content {
-    margin-right: 40%;
-    margin-top: 20px;
+
+#i-am{
+    font-weight: 800;
 }
+
+
 
 .header-content h6 {
     font-weight: bold;
     font-size: 15px;
+=======
+#i-am>span{
+    font-size: 75px;
+
 }
 
-.header-content h1 {
-    font-size: 60px;
-    font-weight: bold;
+
+.header-content{
+    display: flex;
+    flex-direction: column;
 }
+
+.header-content p{
+    margin-bottom: 25px;
+}
+
 
 .header-content a {
     text-decoration: none;
@@ -115,6 +129,20 @@ body {
 }
 
 /* portfolio pic and content end */
+
+
+/* portfolio pic and content end */
+
+
+/* Services part start here*/
+
+.service-container1{
+    background:  #f8fafb;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px 20px 300px;
+}
 
 
 
@@ -181,10 +209,27 @@ body {
     font-weight: 500;
 }
 /*contact me done*/
+  
 /*footer*/
 footer{
     background-color: #151525;
     padding: .2%;
     text-align: center;
     color: white;
+  }
+#help span{
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.service-container2{
+    background-color: #f8fafb;
+    padding: 30px 300px 30px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-container2 h2{
+    color: blue;
 }
