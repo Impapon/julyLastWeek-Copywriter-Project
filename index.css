@@ -11,7 +11,7 @@ body {
 
 .nav-container {
     background: #dbdffd;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 300px 20px 300px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -88,11 +88,6 @@ body {
     font-weight: 800;
 }
 
-.header-content h6 {
-    font-weight: bold;
-    font-size: 15px;
-}
-
 #i-am>span {
     font-size: 75px;
 }
@@ -143,7 +138,7 @@ body {
 
 .service-container2 {
     background-color: #f8fafb;
-    padding: 30px 300px 30px 300px;
+    padding: 30px 330px 50px 330px;
     display: grid;
     grid-template-columns: 6fr 6fr;
     size: 2px;
@@ -156,7 +151,7 @@ body {
 #more-details {
     text-decoration: none;
     color: rgb(32, 28, 28);
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
@@ -216,6 +211,7 @@ body {
     padding: 10px 30px;
     font-size: 15px;
     outline: none;
+    background-color: rgb(246, 246, 246);
 }
 
 .contactContent-2 textarea {
@@ -224,6 +220,7 @@ body {
     font-family: 'Poppins';
     padding: 0 30px;
     outline: none;
+    background-color: rgb(246, 246, 246);
 }
 
 .contact-btn {
@@ -234,6 +231,7 @@ body {
     background-color: #420ed1;
     color: white;
     font-weight: 500;
+    margin-top: 30px;
 }
 
 
