@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html,
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 /* Navigation start */
 
 .nav-container {
+
     background: #dbdffd;
-    padding: 20px 300px 20px 300px;
+    padding: 20px 100px 20px 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
-.nav-container img {
-    margin-right: 3px;
-    width: auto;
-    height: 29px;
+.logo a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #000;
+}
+.text-1{
+    font-weight: bold;
+    padding-left: 8px
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
@@ -38,9 +46,10 @@ body {
 .nav-options>a {
     text-decoration: none;
     font-size: 17px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-right: 18px;
     color: rgb(59, 57, 57);
+    font-weight: 400;
 }
 
 .nav-options>a::after {
@@ -80,6 +89,7 @@ body {
 
 .header-content h6 {
     font-weight: bold;
+    font-size: 15px;
 }
 
 .header-content h1 {
@@ -100,6 +110,81 @@ body {
     font-weight: bold;
     line-height: 25px;
 }
-
+.heroSection{
+    margin-top: 100px;
+}
 
 /* portfolio pic and content end */
+
+
+
+
+/* contact me */
+
+#contactMe{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.contactContainer{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+}
+.contactContent-1{
+    width: 500px;
+}
+.contactHeader{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contactP{
+    margin-bottom: 30px;
+}
+.contactInfo i{
+    color: #420ed1;
+    font-size: 20px;
+    padding-right:10px ;
+}
+.social{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.social i{
+     margin-right:10px ;
+}
+.contactContent-2{
+    width: 300px;
+    align-items: center;
+    margin-left:20px ;
+}
+.contactContent-2 input{
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    outline: none;
+}
+.contactContent-2 textarea{
+    border: none;
+    font-size: 15px;
+    font-family:'Poppins';
+    padding: 0 30px;
+    outline: none;
+}
+.contact-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family:'Poppins';
+    border: none;
+    background-color: #420ed1;
+    color: white;
+    font-weight: 500;
+}
+/*contact me done*/
+/*footer*/
+footer{
+    background-color: #151525;
+    padding: .2%;
+    text-align: center;
+    color: white;
+}
