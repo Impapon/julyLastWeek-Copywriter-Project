@@ -4,6 +4,9 @@ body {
     margin: 0px;
 }
 
+
+/* Navigation start */
+
 .nav-container {
     background: #dbdffd;
     padding: 20px 300px 20px 300px;
@@ -12,10 +15,19 @@ body {
     align-items: center;
 }
 
+.nav-container img {
+    margin-right: 3px;
+    width: auto;
+    height: 29px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 .nav-container>.copywriter {
+    font-family: 'Hammersmith One', sans-serif;
+    text-decoration: none;
     color: black;
     font-size: x-large;
-    font-weight: 600;
+    font-weight: 850;
 }
 
 .nav-options {
@@ -40,12 +52,13 @@ body {
     transition: width .3s;
 }
 
-.nav-options>a:hover{
+.nav-options>a:hover {
     color: blue;
 }
 
 .nav-options>a:hover::after {
     width: 100%;
 }
+
 
 /* Nav Part ends here */
