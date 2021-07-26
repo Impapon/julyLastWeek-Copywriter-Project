@@ -125,12 +125,6 @@ body {
 }
 
 
-/* portfolio pic and content end */
-
-
-/* portfolio pic and content end */
-
-
 /* Services part start here*/
 
 .service-container1 {
@@ -140,6 +134,33 @@ body {
     flex-direction: column;
     padding: 50px 300px 20px 300px;
 }
+
+#help span {
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.service-container2 {
+    background-color: #f8fafb;
+    padding: 30px 300px 30px 300px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    size: 2px;
+}
+
+.service-container2 h2 {
+    color: blue;
+}
+
+#more-details {
+    text-decoration: none;
+    color: rgb(32, 28, 28);
+    font-size: 12px;
+}
+
+
+/* /* Services part end */
 
 
 /* contact me */
@@ -228,19 +249,5 @@ footer {
     color: white;
 }
 
-#help span {
-    font-weight: 800;
-    font-size: 45px;
-    font-family: sans-serif;
-}
 
-.service-container2 {
-    background-color: #f8fafb;
-    padding: 30px 300px 30px 300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.service-container2 h2 {
-    color: blue;
-}
+/*footer end*/
