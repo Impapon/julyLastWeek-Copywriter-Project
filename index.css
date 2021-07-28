@@ -11,11 +11,21 @@ body {
 
 .nav-container {
     background: #dbdffd;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    margin-left: 5%;
+}
+.nav-options{
+    margin-right: 6%;
 }
 
 .logo a {
