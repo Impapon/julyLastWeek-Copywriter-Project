@@ -128,7 +128,7 @@ body {
 /* Services part start here*/
 
 .about-service-bi {
-    background-image: linear-gradient(180deg, white, rgb(19, 170, 150));
+    background-image: linear-gradient(180deg, white, rgb(216,191,216));
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -175,6 +175,9 @@ body {
     margin-right: auto;
     width: 65%;
     height: 300px;
+    object-fit: cover;
+    
+    
 }
 
 #about-title {
